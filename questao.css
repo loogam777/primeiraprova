@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+/*questao1*/
+.div{
+    width: 800px;
+    height:350px ;
+    background-color: lightgreen;
+    position: relative;
+    top: 200px;
+    left: 250px;
+    text-decoration: none;
+}
+.imagem{
+    position: absolute;
+    left: 350px;
+    top:145px ;
+}
+
+img{
+    height:90px ;
+    width:100px ;
+}
+/*
+questao dois
+*/
+.p{
+    padding-top: 200px;
+}
+
+.pp {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    background-color: black;
+    color: #333333;
+    text-align: justify;
+    text-shadow:0 0 0.2rem white ;  
+    margin: 20px 0px 10px 1000px; 
+}
+
+
+table{
+    border-style: solid;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+table{
+    width: 900px;
+    align-items: center;
+    margin: 0px auto;
+}
+td{
+    border-style: solid;
+}
+
+
+.questao4{
+    font-family:'Pacifico', cursive ;
+    color: #999999;
+    background-color: aqua;
+    padding-top: 150px;
+}
+input{
+    height:50px;
+    width:150px ;
+    font-size: 15px;
+    text-align: center;
+}
+input:hover{
+    background-color: aquamarine;
+    font-size:20px ;
+}
+
+.box{
+    background-color: #333333;
+    width: 50%;
+    height: 400px;
+    margin: 0px auto;
+    text-align: center;
+    position: relative;
+    border-radius: 20px;
+}
+img{
+    position: absolute;
+    top: 60px;
+    left: 300px;
+    box-sizing: border-box;
+    
+}
+.nome2{
+    position: relative;
+    top: 200px ;
+    left:20px ;
+}

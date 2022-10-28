@@ -1,0 +1,36 @@
+:root{
+    --cor-principal:#367E18 ;
+    --cor-segundari: #F57328;
+    --display-padrao:inline-block ;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    height:100vh ;
+    width:100vw ;
+    background-color: #007977;
+}
+.esquerda{
+    display:var(--display-padrao);
+    width:48% ;
+    background-color:var(--cor-principal);
+}
+.direita{
+    display:var(--display-padrao);
+    width:48%;
+    background-color:var(--cor-segundari);
+}
+.direita .texto{
+    margin-top:40% ;
+    margin-inline:center ;
+    font-size:100px; 
+    color:var(--cor-principal);
+}
+.esquerda .texto{
+    margin-top:40% ;
+    margin-inline:center ;
+    font-size:100px; 
+    color: var(--cor-segundari);
+}

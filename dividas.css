@@ -1,0 +1,84 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.containe{
+    width: 70% ;
+    height: 275px ;
+    background-color: darkslategrey;
+    margin:30px auto ;
+    padding-top: 15px;
+    text-align: center;
+}
+.texto{
+    width: 90% ;
+    height: 250px ;
+    margin: 0px auto ;
+    background-color:white ;
+    border:black ;
+    text-align: center ;
+    padding: 100px ;
+    box-sizing: border-box;
+    font-size:50px ;
+}
+.imagem{
+    padding-left: 100px;
+
+}
+#imagem2{
+    width:80% ;
+    display: inline-block;
+    top: 10px;
+}
+.texto2{
+font-size:30px ;
+position:relative ;
+bottom:45%;
+color: black;
+left: 3%;
+text-align: center;
+}
+.containe2{
+    width: 70% ;
+    height: 275px ;
+    background-color: darkslategrey;
+    margin:30px auto ;
+    padding-top: 15px;
+    text-align: center;
+}
+#imag3{
+    width: 200px;
+    height:200px ;
+}
+.item-da-lista{
+    list-style:none ;
+    display: inline-block;
+    text-align: center;
+    width: 32%;
+    font-size:40px ;
+    
+}
+.item-da-lista.texto3{
+    position: relative;
+    top: 30%;
+}
+.lista-simples{
+    display: inline-flex;
+    width:95% ;
+    height: 0px auto;
+    align-items: center;
+}
+
+.containe78{
+    width: 70% ;
+    height: 720px ;
+    background-color: darkslategrey;
+    margin:30px auto ;
+    padding-top: 15px;
+    text-align: center;
+}
+#imag3{
+    background-color: #999999;
+}

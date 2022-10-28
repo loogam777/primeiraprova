@@ -1,0 +1,83 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: rgba(169, 169, 169, 0.678);
+    width:250vw ;
+    height: 250vh ;
+}
+#pai__startic{
+    width:300px ;
+    height:300px ;
+    background:green ;
+    position: static;
+    top: 20px;
+}
+#filho_startic{
+    width:160px ;
+    height:160px ;
+    background-color: brown;
+}
+#pai__fixed{
+    width:300px ;
+    height:300px ;
+    background:rgb(128, 98, 0) ;
+    position: fixed;
+    top: 0%;
+    right: 5%;
+}
+#filho_fixed{
+    width:160px ;
+    height:160px ;
+    background-color: brown;
+}
+#pai__sticky{
+    width:300px ;
+    height:300px ;
+    margin: 200px 0px 0px 100px;
+    background:rgb(128, 98, 0) ;
+    position: sticky;
+    bottom: 20%;
+    right: 30%;
+}
+#filho_sticky{
+    width:160px ;
+    height:160px ;
+    background-color: brown;
+    position: fixed;
+    bottom: 35;
+}
+#pai_relativer{
+    width:300px ;
+    height:300px ;
+    background-color: aqua;
+    margin: 100px;
+   
+}
+#filho_relativer{
+    width:160px ;
+    height:160px ;
+    background-color: brown;
+    position: relative;
+    top: 40px;
+    left: 40px;
+
+}
+#pai__absolute{
+    width:300px ;
+    height:300px ;
+    background-color: rgb(22, 175, 175);
+    position: relative;
+    left: 50%;
+    top: 150px;
+    right: 30%;
+
+}
+#filho__absolute{
+    width:160px ;
+    height:160px ;
+    background-color: rgb(48, 28, 28);
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+
