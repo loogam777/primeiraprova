@@ -1,0 +1,35 @@
+.conteine{
+    position: relative;
+    width:800px ;
+    height:350px ;
+    background-color:lightgreen;
+    margin: 10% auto;
+}
+.img{
+    position: absolute;
+    width: 50px; ;
+    height: 40px ;
+    top:160px;
+    left: 350px ;
+}
+
+p{
+    background: black;
+    width:250px ;
+    height:350px ;
+    margin:20px 0px 10px 1050px ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #333333;
+    font-size: 32px;
+    font-weight: bolder;
+    text-shadow: 0 0 0.2em white;
+}
+
+.casa{
+    padding-top: 150px;
+    position: relative;
+    top: 150px;
+    color: gray;
+    text-shadow: 0 0 0.2em white ;
+    background-color: aqua;
+}
